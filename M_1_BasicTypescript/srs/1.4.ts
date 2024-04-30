@@ -37,7 +37,7 @@ let friends :string[] = ["samin", "anik", "shourov"];
 let eligibleRoolList : number[] = [1,3,54];
 
 eligibleRoolList.push(44); 
-eligibleRoolList.push('dd'); // will not work
+// eligibleRoolList.push('dd'); // will not work
 
 
 
