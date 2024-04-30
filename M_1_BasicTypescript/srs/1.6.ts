@@ -1,3 +1,4 @@
+{
 // Learning Function 
 // Normal Function 
 // Arrow Fucntion 
@@ -18,7 +19,14 @@ const addArrow = (num1: number , num2: number): number => num1+num2
 const poorUser = {
     name : "Mezba", 
     balence : 0,
-    addBalance(balence:number) : number{
+    addBalance(balence:number) : string{
         return `My new balance is : ${this.balence + balence}` 
     }
+}
+
+
+const arr : number[] = [ 1,5,5,66];
+const newArry: number[] = arr.map((elem: number): number => elem*elem);
+
+
 }
