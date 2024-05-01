@@ -20,9 +20,11 @@
 
     // array destructuring 
 
-    const myFriends = ['anik', 'pritom', 'shourov', 'rafi'];
+    const myFriends = ['anik', 'pritom', 'shourov', 'rafi','yousof','nadia','jannat'];
 
-    const [a, b, c] = myFriends;
+    const [a, b, besfriend] = myFriends; // desructured
+    const [,, bestfriend2] = myFriends // if want to skif first names.
+    const [,,besfriend3, ...rest] = myFriends; // it will store rest names in the rest variable
 
 
 
