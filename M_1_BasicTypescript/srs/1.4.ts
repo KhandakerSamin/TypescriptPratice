@@ -8,10 +8,8 @@ let lastName: string = 'yeasar';  //Explicit Data type
 
 // Number
 let  roll : number = 182;
-
 // boolean 
 let isAdmin : boolean = true;
-
 // undefined 
 let x : undefined = undefined;
 // null
