@@ -22,7 +22,7 @@
 
     
     // write array of object using generic type
-    const user : GenericArray<{name: string , age: number}> = [
+    const user1 : GenericArray<{name: string , age: number}> = [
         {
             name: 'samin',
             age: 100 
@@ -32,6 +32,36 @@
             age: 200,
         },
     ]
+
+
+    //? if there are a big object then we can declire the type first and then set them it into generic type
+
+    type User = {
+        name: string;
+        age: number
+    }
+
+    //or using interface 
+
+    type User1 {
+        name: string;
+        age: number 
+    }
+
+    const user2 : GenericArray<User1> = [
+        {
+            name: 'samin',
+            age: 100 
+        },
+        {
+            name: 'anik',
+            age: 200,
+        },
+    ]
+    
+
+
+    // --------------------------------
 
 
 
