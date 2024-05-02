@@ -63,25 +63,6 @@ const studentA3:Student ={
     address:'dhaka'}
 
 
-const studentA4:Student ={
-    name: 'samin',
-    age: 23,
-    gender: 'male',
-    contactNo:'01300000000',
-    address:'dhaka'
-}
-const studentA5:Student ={
-    name: 'samin',
-    age: 23,
-    gender: 'male',
-    address:'dhaka'
-}
-const studentA6:Student ={
-    name: 'samin',
-    age: 23,
-    gender: 'male',
-    address:'dhaka'
-}
 
 
 
