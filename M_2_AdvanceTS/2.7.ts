@@ -31,12 +31,16 @@
         return obj[key];
     } 
 
-    const result1 = getPropertyValue(user,'emni')
+    const result1 = getPropertyValue(car,'model')
 
 
 
     
     // user.name
+
+
+    //! not clar properly 
+    
 
 
 
