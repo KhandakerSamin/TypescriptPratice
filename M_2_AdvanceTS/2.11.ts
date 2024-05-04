@@ -2,18 +2,18 @@
     //! Topic : Utility Type and Pick
 
     type Person = {
-        name:string;
+        name: string;
         age: number;
-        email?:string;
-        contactNo:string;
+        email?: string;
+        contactNo: string;
     }
 
     //? Pick
-    type Name = Pick<Person,"name">
-    type NameAge = Pick<Person,"name" | "age">
+    type Name = Pick<Person, "name">
+    type NameAge = Pick<Person, "name" | "age">
 
     //? Omit 
-    type ContactInfo = Omit<Person,'name' | 'age'>
+    type ContactInfo = Omit<Person, 'name' | 'age'>
 
     //? Required - force all property to be required
     type ParsonRequired = Required<Person>
@@ -26,10 +26,10 @@
     type ParsonReadyOnly = Readonly<Person>
 
 
-    const person1 : ParsonReadyOnly  = {
+    const person1: ParsonReadyOnly = {
         name: 'samin',
         age: 21,
-        contactNo:'013'
+        contactNo: '013'
     }
 
     // person1.name='Mr. Samin'  ---> will give error
@@ -38,29 +38,29 @@
     //? Record 
     type MyObj = {
         a: string;
-        b:string
+        b: string
     }
 
-    type MyObjRecord = Record<string,string>
+    type MyObjRecord = Record<string, string>
 
-    const obj1 : MyObj = {
+    const obj1: MyObj = {
         a: 'aa',
-        b:'bb',
-        
+        b: 'bb',
+
     }
-    const obj2 : MyObjRecord = {
+    const obj2: MyObjRecord = {
         a: 'aa',
-        b:'bb',
+        b: 'bb',
         c: 'cc',
-        d:'dd'
+        d: 'dd'
     }
 
 
     // const emptyObject : {} = {}    
 
-    const EmptyObject : Record<string,unknown> = {}
- 
-    
+    const EmptyObject: Record<string, unknown> = {}
+
+
 
 
 
