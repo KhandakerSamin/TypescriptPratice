@@ -13,7 +13,8 @@
     type Sheikh = {
         bike : string;
         car: string;
-        ship: string
+        ship: string;
+        plane: string
     }
 
     // car ase kina / bike ase kina / ship ase kina / trak ase kina
@@ -22,18 +23,7 @@
     type HasBike = CheckVehicle1<"car">   //true
     type HasShip = CheckVehicle2<"ship">  //true 
     type HasTrack = CheckVehicle1<"track">  //false
-
-
-
-
-
-
-
-
-
-
-
-
+    type HasPlane = CheckVehicle1<"plane">  //True
 
 
 
