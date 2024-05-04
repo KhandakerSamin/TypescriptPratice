@@ -31,7 +31,7 @@
     }
     
     // T => {height : string ; width: number}
-    // key => ""
+    // key => T["width"]
     type AreaString4<T> = {
         [key in keyof T] : T[key]
     }
