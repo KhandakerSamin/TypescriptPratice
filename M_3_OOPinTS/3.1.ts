@@ -27,27 +27,19 @@
     cat.makeSound()
 
 
+    //? using parameter properties 
 
-    class Animal {
-        // public name: string;
-        // public species: string;
-        // public sound: string;
 
-        // parameter properties 
-
-        constructor(public name: string,public species: string, public sound: string) {
-            // this.name = name;
-            // this.species = species;
-            // this.sound = sound;
-        }
+    class Animal2 {
+    
+        constructor(public name: string,public species: string, public sound: string) {}
 
         makeSound() {
             console.log(`The ${this.name} says ${this.sound}`)
         }
     }
 
-
-
+    dog.makeSound()
 
     //
 }
