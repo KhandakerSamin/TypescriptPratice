@@ -47,6 +47,20 @@
 
 
 
+    const repeatString = (string:string , num:number) => {
+
+        for(let i = 0 ; i < num ; i++){
+            console.log(`${string}`)
+        }
+    }
+
+    repeatString('samin',5);
+
+
+    
+
+
+
 
     //
 }
